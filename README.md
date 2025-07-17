@@ -46,6 +46,39 @@ No matter what port (machine) you use, your goods (application) inside the conta
 
 ---
 
+
+### 🐳 Prerequisite: Install Docker First
+
+Before proceeding with this practical, make sure **Docker is installed and running** on your system.
+
+✅ **To install Docker**, run the installation script provided in this repository:
+
+#### 🔧 On Linux or WSL:
+
+```bash
+chmod +x install-docker.sh
+./install-docker.sh
+```
+
+
+> 📝 These scripts will automatically install Docker and start the Docker service.
+
+Once Docker is installed, you can verify with:
+
+```bash
+docker --version
+```
+
+You should see output like:
+
+```bash
+Docker version 24.0.2, build cb74dfc
+```
+
+---
+
+
+
 ## 🧪 Example: Containerizing a Python Application with Docker
 
 Let’s say we have a Python script that prints “Hello from Docker!”
